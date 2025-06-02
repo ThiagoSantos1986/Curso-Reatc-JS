@@ -1,0 +1,41 @@
+.gnocchi-section{
+    height: 100vh;
+    background-color: #F7F7F7;
+    padding-top: 9rem;
+  
+}
+
+#gnocchi-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    justify-items: center;
+    height: 70vh;
+}
+
+
+.grid-item{
+    width: 25rem;
+    height: auto;
+    box-shadow: -5px 5px 10px black;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.gnocchi-img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.gnocchi-title{
+    color: var(--color-secundary);
+}
+
+.gnocchi-price{
+    color: black;
+}
