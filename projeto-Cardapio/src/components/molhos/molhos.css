@@ -5,16 +5,15 @@
     align-items: center;
 
 }
-
-
 .lista-molhos{
-   font-size: 2rem;
+   font-size: 1.6rem;
    text-align: center;
    color: var(--color-secundary);
 }
 
-h2{
-    margin-bottom: 1.8rem;
+#molho-title{
+    margin-bottom: 1rem;
     text-transform: uppercase;
     color: var(--color-primary);
+    font-size: 2.6rem;
 }

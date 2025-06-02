@@ -9,7 +9,7 @@ function Molhos({ molhos } : MolhosProps  ){
 
     return(
         <div className="container-molho">
-            <h2>Molhos</h2>
+            <h2 id="molho-title">Molhos</h2>
             
             <ul className="lista-molhos">
                 {molhos.map((item, idx) => 

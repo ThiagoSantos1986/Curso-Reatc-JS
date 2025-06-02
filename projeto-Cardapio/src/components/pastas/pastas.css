@@ -1,19 +1,16 @@
 .pastas-section{
     height: 100vh;
-    /* margin-top: 100px; */
-    padding: 100px;
+    padding: 80px;
     /* margin-bottom: 10px; */
 }
 #pastas-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    row-gap: 20px;
-    column-gap: 10px;
-    
+    row-gap: 10px;
 }
 .pasta-card{
-    padding: 15px;
+    padding: 10px;
     padding-bottom: 0;
     border-radius: 5px;
    
@@ -22,7 +19,7 @@
 
 .pasta-img{
     width: 150px;
-    /* height: 150px; */
+    height: 150px;
     border-radius: 15px;
     box-shadow: -5px 5px 10px black ;
     margin-bottom: 10px;
@@ -31,12 +28,13 @@
 .pasta-title{
     text-align: center;
     margin-bottom: 10px;
+    font-size: 2.6rem;
     text-transform: uppercase;
     color: var(--color-primary);
 }
 
 .pasta-price{
-    text-align: left;
+    text-align: center;
     margin-top: 15px;
     color: black;
 } 

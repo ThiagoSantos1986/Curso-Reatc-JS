@@ -13,7 +13,7 @@ function App() {
       <Apresentacao />
       <Gnocchis />
       <Pastas />
-      {/* <Bebidas /> */}
+      <Bebidas />
     </>
   )
 }
