@@ -1,12 +1,23 @@
+interface Gnochis{
+    id: number;
+    title: string;
+    price: string;
+    img: string;
+}
+
+interface GnocchisCardsProps{
+    listGnocchis: Gnochis[]
+}
 
 
-function CardGnocchi(props){
+
+function CardGnocchi({ listGnocchis } : GnocchisCardsProps){
    
 
     return(
 
         <>
-        {props.listGnocchi.map((gnochhi) => 
+        {listGnocchis.map((gnochhi) => 
             
             <div key={gnochhi.id} className="grid-item">
             <img src={gnochhi.img} className="gnocchi-img" alt="Imagen Gnochi" />

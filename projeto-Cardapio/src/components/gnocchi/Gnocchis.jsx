@@ -37,7 +37,7 @@ function Gnocchi() {
   return (
     <section id="gnocchi" className="gnocchi-section ">
       <div id="gnocchi-grid">
-        <CardGnocchi listGnocchi={listGnocchi} />
+        <CardGnocchi listGnocchis={listGnocchi} />
       </div>
 
       <Molhos   molhos={listMolhos} />
